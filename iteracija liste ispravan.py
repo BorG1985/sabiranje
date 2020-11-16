@@ -7,7 +7,7 @@ print ("Lista sa elementima kao integer", newLista)
 
 kvadratList=[]
 for i in newLista: 
-    kvadratList.append(i**2) 
+    kvadratList.append(i**2) #kvadriranje svakog elementa liste iteracijom
 print("Kvadrat lista sa integerima : ", kvadratList)
 
 kvadratListaS=[str(i) for i in kvadratList]  #konvertovanje svakog elementa u listi iz int u str
